@@ -15,7 +15,6 @@ if (app.get('env').toLowerCase() === 'development') {
 
 //middlewares
 app.use(middlewares);
-
 setupRoutes(app);
 
 app.get('/', (req, res) => {
